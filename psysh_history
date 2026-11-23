@@ -1,0 +1,31 @@
+>>> App\Models\Setting::get('origin_name')
+exit
+>>> App\Models\Setting::get('origin_name')
+exit
+App\Models\Setting::get('origin_name')
+exit
+>>> try {
+...     DB::connection()->getPdo();
+...     echo "OK";
+... } catch (Exception $e) {
+...     echo $e->getMessage();
+... }exit
+exit
+} catch (Exception $e) {
+... } catch (Exception $e) {
+...     echo $e->getMessage();
+>>> try {
+...     DB::connection()->getPdo();   // mencoba membuka koneksi
+...     echo "OK";
+... } catch (Exception $e) {
+...     echo $e->getMessage();
+... }
+try {
+DB::conneection()-getPdo();
+echo "ok";
+} catch (Exception $e) {
+echo $e->getMessage();
+}
+exit
+>>> try { DB::connection()->getPdo(); echo "OK"; } catch (Exception $e) { echo $e->getMessage(); }
+exit
